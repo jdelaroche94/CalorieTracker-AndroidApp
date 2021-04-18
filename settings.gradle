@@ -1,0 +1,1 @@
+include ':app', ':FatSecretAPI', ':commons-codec-1.9', ':hellocharts-library-1.5.8'

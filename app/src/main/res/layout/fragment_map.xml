@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/newFoodTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:text="@string/maps_title"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:id="@+id/searchButtonMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Search Home" />
+    <com.mapquest.mapping.maps.MapView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mapquestMapView"
+        android:layout_width="480dp"
+        android:layout_height="620dp"
+        android:layout_marginTop="60dp"
+        app:mapquest_app_key="4rnZG3uyTxYR3swwRBcb8gs2r41SdJVV"/>
+</RelativeLayout>

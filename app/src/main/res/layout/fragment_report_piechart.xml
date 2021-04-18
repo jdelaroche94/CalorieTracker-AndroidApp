@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reportLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/fitnessReportTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:text="@string/fitness_report_title"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/selectDateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:text="@string/select_date_title"
+        android:layout_marginTop="60dp"/>
+
+    <DatePicker
+        android:id="@+id/inputReportDate"
+        android:layout_width="406dp"
+        android:layout_height="148dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="85dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:scaleX=".7"
+        android:scaleY=".7"
+        android:textAlignment="center" />
+        <Button
+            android:id="@+id/buttonCreateReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inputReportDate"
+            android:text="Create Report"
+            android:layout_marginTop="10dp"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="378dp"
+        android:layout_height="271dp"
+        android:layout_below="@id/buttonCreateReport"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">"Calorie Track"</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="link_test">Sign Up</string>
+    <string name="sign_up_title">SIGN UP</string>
+    <string name="home_title">HOME</string>
+    <string name="my_daily_title">MY DAILY DIET</string>
+    <string name="new_food_title">ADD NEW FOOD</string>
+    <string name="steps_title">MY STEPS</string>
+    <string name="maps_title">MY LOCATION AND PARKS CLOSE TO ME</string>
+    <string name="add_steps_title">MY NEW STEPS</string>
+    <string name="update_steps_title">UPDATING MY STEPS</string>
+    <string name="fitness_report_title">FITNESS REPORT PER DAY</string>
+    <string name="calories_report_title">CALORIES REPORT PER PERIOD</string>
+    <string name="personal_information_title">PERSONAL INFORMATION</string>
+    <string name="address_information_title">ADDRESS INFORMATION</string>
+    <string name="fitness_information_title">FITNESS INFORMATION</string>
+    <string name="login_information_title">LOG-IN INFORMATION</string>
+    <string name="select_date_title">Select Date</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_calories_goal">Edit calorie goal</string>
+</resources>
