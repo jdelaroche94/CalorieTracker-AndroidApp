@@ -13,13 +13,12 @@ import java.util.Scanner;
  * Api.
  */
 public class GoogleSearchAPI {
-    //private static final String API_KEY = "AIzaSyA1QUQlPvvrEGDLYw_JPmK9fBVfafpanY0";
-    //private static final String SEARCH_ID_cx = "005262536795640742439:zwnylhy58gg";
-    //private static final String SEARCH_ID_cx1 = "005262536795640742439:z5mqhaowjpu";
+    //private static final String API_KEY = "1234";
 
-    private static final String API_KEY = "AIzaSyD1SkrQdPtwF6rL3ZKgIaSm1J6LzzT7L6I";
-    private static final String SEARCH_ID_cx = "010645436166412439804:ss0prmavtdo";
-    private static final String SEARCH_ID_cx1 = "010645436166412439804:js-zgrq7swm";
+
+    private static final String API_KEY = "1234";
+    private static final String SEARCH_ID_cx = "1234";
+    private static final String SEARCH_ID_cx1 = "1234";
 
     /**
      * This method is responsible of create the connection between the Calorie Tracker and
